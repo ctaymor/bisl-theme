@@ -1,0 +1,15 @@
+{{ partial "header" . }}
+
+<main>
+
+    <h2>{{ .Title }}</h2>
+
+{{ .Content }}
+<ul class="no-bullets donuts">
+    {{ range .Data.Pages }} {{.Title}} {{ partial "donut-list-item" . }} {{ end }}
+</ul>
+
+</main>
+
+
+{{ partial "footer" . }}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-  {{ range first 10 .Data.Pages }}
+  {{ range .Data.Pages }}
     <h1>{{ .Title }}</h1>
   {{ end }}
 </body>
