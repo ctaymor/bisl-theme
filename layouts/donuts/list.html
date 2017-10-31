@@ -6,14 +6,22 @@
 {{ partial "header" . }}
 
 <main>
-
+  <div class="col span_2"></div>
+  <div class="col span_8">
+  			<div class="section group">
     <h2>{{ .Title }}</h2>
 
-{{ .Content }}
-<ul class="no-bullets donuts">
-    {{ range .Data.Pages }} {{.Title}} {{ partial "donut-list-item" . }} {{ end }}
-</ul>
+		{{ .Content }}
 
+		<h3>A Chronological List of Donuts:</h3>
+
+		<ul class="no-bullets cards">
+	    {{ range .Data.Pages }} {{ partial "donut-list-item" . }} {{ end }}
+
+		</ul>
+	</div>
+	</div>
+  <div class="col span_2"></div>
 </main>
 
 

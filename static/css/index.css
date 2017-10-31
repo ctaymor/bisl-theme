@@ -153,22 +153,30 @@ footer {
   color: #a79e97;
   text-align: center; }
 
-.donuts ul {
+.cards {
   margin: 0;
   padding: 0;
   list-style: none; }
-.donuts li {
-  width: 400px;
-  height: 550px;
-  float: left;
-  list-style: none;
-  margin: 0 14px 14px;
-  padding: 10px;
-  background: #eee;
-  border: 1px #ccc solid;
-  font-size: 0.9em;
-  line-height: 1.2em;
-  min-height: 460px; }
+  .cards li {
+    width: 375px;
+    height: 550px;
+    float: left;
+    list-style: none;
+    margin: 0 14px 14px;
+    padding: 10px;
+    background: #d6d3db;
+    border: 1px #a29ea8 solid;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    min-height: 460px; }
+
+.card-title {
+  display: block;
+  -webkit-margin-before: .33em;
+  -webkit-margin-after: .5em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold; }
 
 @media (min-width: 900px) {
   section {
@@ -239,3 +247,6 @@ body {
 
 .headshot {
   width: '20em'; }
+
+main {
+  display: inline-block; }
