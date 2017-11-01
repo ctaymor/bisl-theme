@@ -22,6 +22,10 @@
 p {
   line-height: 1.5; }
 
+.small-font {
+  line-height: 1;
+  font-size: small; }
+
 .h1 {
   font-family: "Cinzel Decorative", cursive;
   font-size: 4em;
@@ -249,4 +253,5 @@ body {
   width: '20em'; }
 
 main {
-  display: inline-block; }
+  display: inline-block;
+  width: 100%; }

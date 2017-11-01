@@ -4,6 +4,11 @@ p {
   line-height: 1.5;
 }
 
+.small-font {
+  line-height: 1;
+  font-size: small;
+}
+
 .h1 {
   font-family: $fancy-font;
   font-size: 4em;
