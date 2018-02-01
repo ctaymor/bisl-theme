@@ -1,5 +1,5 @@
 .purple1 {
-  color: #2e0a6e; }
+  color: #2E0A6E; }
 
 .white {
   color: #ffffff; }
@@ -8,13 +8,13 @@
   color: #050505; }
 
 .grey2 {
-  color: #29272b; }
+  color: #29272B; }
 
 .grey3 {
-  color: #a29ea8; }
+  color: #A29EA8; }
 
 .grey4 {
-  color: #d6d3db; }
+  color: #D6D3DB; }
 
 .grey1 {
   color: #050505; }
@@ -168,8 +168,8 @@ footer {
     list-style: none;
     margin: 0 14px 14px;
     padding: 10px;
-    background: #d6d3db;
-    border: 1px #a29ea8 solid;
+    background: #D6D3DB;
+    border: 1px #A29EA8 solid;
     font-size: 0.9em;
     line-height: 1.2em;
     min-height: 460px; }
@@ -208,11 +208,11 @@ footer {
   .moi {
     display: none; } }
 .nav-bar {
-  border-top-color: #2e0a6e;
+  border-top-color: #2E0A6E;
   border-top-style: solid;
   border-top-width: 3px;
   min-height: 3em;
-  background-color: #d6d3db; }
+  background-color: #D6D3DB; }
 
 ul.menu {
   list-style-type: none;
@@ -230,11 +230,11 @@ li.right {
   float: right; }
 
 .footer {
-  border-bottom-color: #2e0a6e;
+  border-bottom-color: #2E0A6E;
   border-bottom-style: solid;
   border-bottom-width: 5px;
   min-height: 3em;
-  background-color: #d6d3db; }
+  background-color: #D6D3DB; }
   .footer p {
     text-align: center;
     vertical-align: middle;
@@ -255,3 +255,5 @@ body {
 main {
   display: inline-block;
   width: 100%; }
+
+/*# sourceMappingURL=index.css.map */
