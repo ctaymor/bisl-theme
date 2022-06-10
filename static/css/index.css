@@ -256,9 +256,4 @@ main {
   display: inline-block;
   width: 100%; }
 
-.no-bullets {
-  list-style: none;
-  -webkit-margin-before: 0px;
-  -webkit-margin-start: 0px; }
-
 /*# sourceMappingURL=index.css.map */
