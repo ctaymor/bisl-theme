@@ -51,3 +51,6 @@ May we suggest something like this:
 ```
 If you are interested in me giving one of the talks below or another talk on <subject>, please reach out to me via <contact method>.
 ```
+
+### Contact Page
+For the contact page on the index page, Bisl uses [Formspree](formspree.io). You will need an account on formspree to recieve messages.
