@@ -1,1 +1,5 @@
-<i class="fa-brands fa-mastadon" title="Find me on Mastadon> at"></i> <a rel="me" href="https://{{ .Site.Params.mastadonServer}}/{{ .Site.Params.mastadonUsername }}">{{ .Site.Params.mastadonUsername }}@{{ .Site.Params.mastadonServer }} </a>
+<span class="icon">{{ partial "icon-mastadon.svg" . }}</span>
+<a rel="me" href="https://{{ .Site.Params.mastadonServer}}/{{ .Site.Params.mastadonUsername }}">
+    {{ .Site.Params.mastadonUsername }}@{{ .Site.Params.mastadonServer }}
+</a>
+
